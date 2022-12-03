@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: url('./images/festa_fundo.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    
+}
+
+.container{
+    margin-top: 18vh;
+}
+
+header h1{
+    text-align: center;
+    font-size: 4.8em;
+    margin-bottom: 5vh;
+    max-width: 80vw;
+}
+
+main{
+    display: flex;
+}
+
+div.date{
+    position: relative;
+    padding: 5px;
+    margin: auto;
+}
+
+sapn.date_number{
+    font-size: 3.9em;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+
+span.date_type{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.25em;
+}
+
+button{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(255, 132, 0);
+    box-shadow: 3px 3px 12px rgb(255, 132, 0);
+    width: max-content;
+    padding: 16px 34px;
+    border-radius: 20px;
+    display: block;
+    margin: 5vh auto;
+
+}
+
+@media (max-width: 1440px){
+    header h1{
+        font-size: 3.4em;
+    }
+
+    sapn.date_number{
+        font-size: 3em;
+        padding: 10px 20px;
+    }
+
+    span.date_type{
+        font-size: 1.1em;
+    }
+
+    button{
+        font-size: 1.5em;
+        padding: 12px 25px;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (max-width: 800px){
+    header h1{
+        font-size: 2.7em;
+    }
+
+    sapn.date_number{
+        font-size: 2.45em;
+        padding: 10px 20px;
+    }
+
+    span.date_type{
+        font-size: 1.1em;
+    }
+
+    button{
+        font-size: 1.38em;
+        padding: 10px 22px;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (max-width: 580px){
+    header h1{
+        font-size: 2.2em;
+    }
+
+    sapn.date_number{
+        font-size: 1.95em;
+        padding: 8px 18px;
+    }
+
+    span.date_type{
+        font-size: 1em;
+    }
+
+    button{
+        font-size: 1.3em;
+        padding: 10px 22px;
+        border-radius: 20px;
+    }
+    
+}
