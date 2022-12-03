@@ -68,7 +68,15 @@ button{
     border-radius: 20px;
     display: block;
     margin: 5vh auto;
+    cursor: pointer;
+    transition: all .25s;
 
+}
+
+
+button:hover{
+    background-color: rgb(255, 106, 0);
+    box-shadow: 6px 6px 20px rgb(255, 106, 0);  
 }
 
 @media (max-width: 1440px){
