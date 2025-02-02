@@ -31,7 +31,7 @@ const ContagemRegressiva = (tempo) => {
 
 
 const TempoRestante = () => {
-    const DataEvento = new Date(2023, 0, 1, 0, 0, 1)
+    const DataEvento = new Date(2026, 0, 1, 0, 0, 1)
     const DataHoje = new Date()
     return Math.floor((DataEvento - DataHoje) / 1000)
 }
