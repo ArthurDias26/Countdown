@@ -2,8 +2,7 @@
 [HTML__BADGE]: https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white
 [CSS__BADGE]: https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
-[PROJECT__URL]: https://tbmi-fatec-jales.vercel.app/
-
+[PROJECT__URL]: https://countdown-silk-zeta.vercel.app/
 <h1 align="center" style="font-weight: bold;">Countdown 💻</h1>
 
 ![javascript][JAVASCRIPT__BADGE]
@@ -40,7 +39,7 @@ Essa é uma aplicação simples com HTML, CSS e JavaScript. Para executá-la, s�
 
 
 ```bash
-git clone https://github.com/ArthurDias26/TBMI-Fatec-Jales
+git clone https://github.com/ArthurDias26/Countdown.git
 ```
 
 <h3>Executando</h3>
@@ -61,6 +60,3 @@ open index.html
 | <kbd>style.css</kbd>     | Arquivo de estilos da aplicação
 | <kbd>script.js</kbd>     | Arquivo que contém instruções em JavaScript / lógica da aplicação
 | <kbd>/images</kbd>     | Pasta com as imagens utilizadas na aplicação
-
-
-
